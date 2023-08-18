@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2790901920</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\StdDriver\Src\regfile_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\flash_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\can_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\cmp_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\int_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\rtc_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\seru_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\sysctrl_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\tim_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\tmu_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\srmc_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\pmu_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\trng_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\uart_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\crc_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\gpio_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\i2c_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\wdog_drv.c</file>
+            <file>$PROJ_DIR$\src\clock_config.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\dma_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\scm_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\common_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\cmu_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\tdg_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\ewdt_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\mcpwm_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\stim_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\eiru_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\i2s_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\smpu_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\spi_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Src\clock_drv.c</file>
+            <file>$PROJ_DIR$\Platform\Devices\Z20K148M\Inc\Z20K148M.h</file>
+            <file>$PROJ_DIR$\src\serial.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_drv.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes_drv.pbi</file>
+            <file>$PROJ_DIR$\src\main.c</file>
+            <file>$PROJ_DIR$\src\serial.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\can_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\smpu_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmu_drv.o</file>
+            <file>$PROJ_DIR$\Platform\Devices\Z20K148M\Startup\IAR\Z20K148M_startup.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmp_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim_drv.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma_drv.o</file>
+            <file>$PROJ_DIR$\src\clock_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tmu_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\scm_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\regfile_drv.o</file>
+            <file>$PROJ_DIR$\Platform\Devices\device_regs.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\seru_drv.o</file>
+            <file>$PROJ_DIR$\Platform\platform_cfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_drv.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\trng_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_drv.pbi</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\aes_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\can_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\clock_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\adc_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\trng_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\int_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\smpu_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\uart_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\seru_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\wdog_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Src\aes_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\pmu_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Src\adc_drv.c</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\rtc_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\dma_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\i2s_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\cmu_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\common_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\crc_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\gpio_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\i2c_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\mcpwm_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\regfile_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\scm_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\spi_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\stim_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\sysctrl_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\eiru_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\ewdt_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\srmc_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\tdg_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\cmp_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\flash_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\tim_drv.h</file>
+            <file>$PROJ_DIR$\StdDriver\Inc\tmu_drv.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\tdg_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tmu_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\hello_world.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\hello_world.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmu_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\eiru_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\trng_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\hello_world.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2s_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Z20K148M_startup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\common_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\stim_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ewdt_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\smpu_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\regfile_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysctrl_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcpwm_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\srmc_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\seru_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\scm_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\tdg_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\common_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmp_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcpwm_drv.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysctrl_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\eiru_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\int_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\srmc_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\can_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2s_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\int_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stim_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu_drv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_config.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\ewdt_drv.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\aes_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\can_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\serial.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmu_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dma_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ewdt_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\smpu_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_config.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\common_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdog_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tmu_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tim_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\eiru_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cmp_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\scm_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\mcpwm_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtc_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\regfile_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\srmc_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\seru_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2c_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\i2s_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\int_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stim_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysctrl_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\tdg_drv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\trng_drv.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\regfile_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\flash_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\can_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 140 63 59 35 52 0 39 83 61 1 44 67 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\cmp_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 140 63 59 35 52 83 0 39 61 1 44 97 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\int_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\rtc_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\seru_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\sysctrl_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\tim_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\tmu_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\srmc_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\pmu_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\trng_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\uart_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\crc_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\gpio_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\i2c_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\wdog_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\clock_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\dma_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\scm_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\common_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\cmu_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\tdg_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\ewdt_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\mcpwm_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\stim_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 193</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\eiru_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\i2s_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\smpu_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\spi_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\clock_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140 63 1 52 83 61 39 59 35 0 2 44 68 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\serial.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140 154 135 39 63 43 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140 54 154 135 43 39 63 52 44</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Platform\Devices\Z20K148M\Startup\IAR\Z20K148M_startup.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\aes_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140 63 61 52 1 39 83 59 35 0 2 44 66 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\StdDriver\Src\adc_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 140 63 52 59 35 2 39 83 61 1 44 69 135</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\hello_world.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\regfile_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\flash_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\can_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\cmp_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\int_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\rtc_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\seru_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\sysctrl_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\tim_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\tmu_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\srmc_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\pmu_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\trng_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\uart_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\crc_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\gpio_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\i2c_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\wdog_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\clock_config.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\dma_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\scm_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\common_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\cmu_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\tdg_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\ewdt_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\mcpwm_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\stim_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\eiru_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\i2s_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\smpu_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\spi_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\clock_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\serial.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\aes_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\StdDriver\Src\adc_drv.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
